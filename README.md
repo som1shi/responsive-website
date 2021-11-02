@@ -1,2 +1,2 @@
 # website-reponsive
-Repo used for my internship in creating.
+This is code for a responsive website that we based on basic html, javascript and css.
