@@ -1,0 +1,48 @@
+.Container1 {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+
+.text1{
+    height: 500px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}  
+
+.picture1{
+
+    width: 50%;
+    float: right;
+
+}  
+
+.text2{
+    height: 500px;
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+
+
+.picture2{
+    width: 50%;
+    float: left;
+
+}  
+
+img {
+    max-width: 100%;
+    }
+
+@media only screen and (max-width: 700px) {
+        /* For mobile phones: */
+        .text1, .text2, .picture1, .picture2 {
+          width: 100%;
+        }
