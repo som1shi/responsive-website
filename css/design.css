@@ -149,6 +149,11 @@ ul {
     width: 0px;
 }
 
+.Menu{
+    float: right;
+    height: 0px;
+}
+
 @media only screen and (max-width: 700px) {
     /* For mobile phones: */
     .dropdown-content, ul, .logos{
@@ -157,6 +162,10 @@ ul {
     .PhoneIMG{
         height: 100px;
         width: 100px;
+    }
+
+    .Menu{
+        height: 50px;
     }
     
     .text1, .text2, .picture1, .picture2 {
