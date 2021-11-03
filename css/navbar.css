@@ -7,6 +7,7 @@ ul {
 }
 #navcol
 {
+<<<<<<< HEAD
     animation-name: gradient;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -58,4 +59,7 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+=======
+    
+>>>>>>> 56a685f25fb05d737db5e07798fd407ca6f65408
 }
