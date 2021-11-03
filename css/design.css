@@ -61,6 +61,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    align-items: center;
+
   }
   #navcol
   {
@@ -71,17 +73,18 @@ ul {
   
   @keyframes gradient {
       0%   {background-color:rgb(114, 0, 0);}
-      50% {background-color:rgb(155, 1, 1);}
+      50% {background-color:rgb(165, 1, 1);}
       100% {background-color:rgb(114, 0, 0);}
   }
+
   li {
     float: left;
+    text-align: center;
   }
   
   li a, .dropbtn {
-    display: inline-block;
+    display: inline-flex;
     color: white;
-    text-align: center;
     padding: 14px 60px;
     text-decoration: none;
   }
@@ -119,6 +122,7 @@ ul {
   
 .navcol{
     height: 0px;
+    padding: 100%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -127,3 +131,7 @@ ul {
         height: 0px;
     }
 }
+
+
+
+/* TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS   TEXTS    */
