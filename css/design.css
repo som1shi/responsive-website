@@ -1,5 +1,4 @@
-.Container1 {
-    border: 3px solid #fff;
+.Container {
     padding: 20px;
 }
 
@@ -11,13 +10,12 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+
 }  
 
 .picture1{
-
     width: 50%;
     float: right;
-
 }  
 
 .text2{
@@ -46,3 +44,10 @@ img {
         .text1, .text2, .picture1, .picture2 {
           width: 100%;
         }
+
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+    .text1, .text2{
+        height: 300px;
+    }
