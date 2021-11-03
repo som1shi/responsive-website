@@ -3,15 +3,23 @@
 }
 
 
-.text1{
-    height: 500px;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
 
-}  
+#te1
+{
+  height: 500px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  color: gray;
+}
+
+#
+#nargey
+{
+  
+}
 
 .picture1{
     width: 50%;
