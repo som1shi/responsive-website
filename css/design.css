@@ -154,6 +154,9 @@ ul {
     height: 0px;
 }
 
+.MenuDrop{
+    height: 0px;
+}
 @media only screen and (max-width: 700px) {
     /* For mobile phones: */
     .dropdown-content, ul, .logos{
@@ -167,6 +170,11 @@ ul {
     .Menu{
         height: 50px;
         
+    }
+
+    .MenuDrop{
+        height: 10px;
+        width: 10px;
     }
     li a:hover, .dropdownmenu:hover .Menu {
       background-color: red;
